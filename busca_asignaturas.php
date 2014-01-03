@@ -21,7 +21,7 @@ AND bd_alumno.runalumno = "'.$rut.'" ORDER BY codigo_asignatura ASC';
 $result = mysql_query($query)
     or die('Consulta fallida: ' . mysql_error());
 
-
+//
 $data = array();
 
 while ($row=mysql_fetch_assoc($result)) 
